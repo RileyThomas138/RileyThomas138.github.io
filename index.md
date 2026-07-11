@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Header 1
+# Introduction
 
 Hello, my name is Riley. I am an IT professional with a passion for cybersecurity. This page will serve as a hub to showcase my cybersecurity projects.
 
