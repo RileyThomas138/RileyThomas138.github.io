@@ -4,7 +4,7 @@ layout: default
 
 # Introduction
 
-Hello, my name is Riley. I am an IT professional with a passion for cybersecurity. This page will serve as a hub to showcase my cybersecurity projects.
+In this project I set up an Azure portal, set up and configure a Windows 11 VM through Azure, set up log analytics in Sentinel, and create an alert for sign ins on the VM I created in this project. 
 
 ## Header 2
 
