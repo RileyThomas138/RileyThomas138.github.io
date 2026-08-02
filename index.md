@@ -8,7 +8,7 @@ Hello, my name is Riley. I am an IT professional with a passion for cybersecurit
 
 ## Projects
 <a href="https://rileythomas138.github.io/VM-and-Sentinel.html">Creating a VM and setting up Sentinel</a><br/>
-> In this project I set up an Azure portal, set up and configure a Windows 11 VM through Azure, set up log analytics in Sentinel, and create an alert for sign ins on the VM I created in this project.
+> In this project I set up an Azure portal, set up and configure a Windows 11 VM through Azure, set up a Sentinel workspace, and create an alert for sign successful sign ins to the VM. 
 
 
 
