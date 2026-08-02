@@ -10,6 +10,6 @@ In this project I set up an Azure portal, set up and configure a Windows 11 VM t
 
 ## Header 2
 
-![Branching](Screeenshots for VM and Sentinel/Azure Portal Created.png)
+![Azure Portal Created](https://github.com/RileyThomas138/RileyThomas138.github.io/blob/main/Screeenshots%20for%20VM%20and%20Sentinel/Azure%20Portal%20Created.png)
 
 ## <a href="https://rileythomas138.github.io/">Home</a><br/>
