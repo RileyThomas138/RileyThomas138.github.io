@@ -15,9 +15,6 @@ In this project I set up an Azure portal, set up and configure a Windows 11 VM t
 > When something is important enough, you do it even if the odds are not in your favor.
 
 
-## 
-<a href="https://rileythomas138.github.io/">Home</a><br/>
+## <a href="https://rileythomas138.github.io/">Home</a><br/>
 
-```
-<a href="https://rileythomas138.github.io/">Home</a><br/>
-```
+
