@@ -13,5 +13,5 @@ Hello, my name is Riley. I am an IT professional with a passion for cybersecurit
 
 
 ```
-The final element.
+Thank you for taking the time to review my portfolio!
 ```
