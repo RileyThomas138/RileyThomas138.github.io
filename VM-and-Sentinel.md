@@ -19,5 +19,5 @@ In this project I set up an Azure portal, set up and configure a Windows 11 VM t
 <a href="https://rileythomas138.github.io/">Home</a><br/>
 
 ```
-The final element.
+<a href="https://rileythomas138.github.io/">Home</a><br/>
 ```
