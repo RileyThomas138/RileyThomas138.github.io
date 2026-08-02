@@ -6,11 +6,9 @@ layout: default
 
 Hello, my name is Riley. I am an IT professional with a passion for cybersecurity. This page will serve as a hub to showcase my cybersecurity projects.
 
-## Header 2
+## Projects
 <a href="https://rileythomas138.github.io/VM-and-Sentinel.html">Creating a VM and setting up Sentinel</a><br/>
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+> In this project I set up an Azure portal, set up and configure a Windows 11 VM through Azure, set up log analytics in Sentinel, and create an alert for sign ins on the VM I created in this project.
 
 
 
