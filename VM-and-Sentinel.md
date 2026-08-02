@@ -4,7 +4,7 @@ layout: default
 
 
 
-# Introduction
+# Building a Microsoft Sentinel Workspace and Creating a VM - Introduction
 
 In this project I set up an Azure portal, set up and configure a Windows 11 VM through Azure, set up a Sentinel workspace, and create an alert for sign successful sign ins to the VM. 
 
