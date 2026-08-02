@@ -6,7 +6,7 @@ layout: default
 
 # Introduction
 
-In this project I set up an Azure portal, set up and configure a Windows 11 VM through Azure, set up log analytics in Sentinel, and create an alert for sign ins on the VM I created in this project. 
+In this project I set up an Azure portal, set up and configure a Windows 11 VM through Azure, set up a Sentinel workspace, and create an alert for sign successful sign ins to the VM. 
 
 ## Details
 This is page you are greeted with when you first create an Azure portal
