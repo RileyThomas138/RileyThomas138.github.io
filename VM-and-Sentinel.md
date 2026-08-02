@@ -40,6 +40,6 @@ I then went on to save this query into a Microsoft Sentinel rule that would run 
 Now by going to the Incidents page in Microsoft Defender you can see all the times there was a succesful local login
 ![Ending](https://github.com/RileyThomas138/RileyThomas138.github.io/blob/main/Screeenshots%20for%20VM%20and%20Sentinel/Succesful%20Sign%20In%20Incidents.png)
 
-##<a href="https://github.com/RileyThomas138/RileyThomas138.github.io/blob/main/VM-and-Sentinel.md">View the page on Github </a><br/> 
+## <a href="https://github.com/RileyThomas138/RileyThomas138.github.io/blob/main/VM-and-Sentinel.md">View the page on Github </a><br/> 
 
 ## <a href="https://rileythomas138.github.io/">Home</a><br/>
