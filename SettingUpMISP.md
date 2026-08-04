@@ -63,7 +63,7 @@ I added mispurl and entered the url for my instance of MISP
 I added timerTriggerSchedule and entered  0* /2 * * * to have it run every two hours
 
 After Adding all of these variables tested the function app to make sure that it would run 
-<img width="2297" height="1203" alt="image" src="https://github.com/user-attachments/assets/8a7cc8b1-294c-496d-a578-a11618e84499" />
+
 
 
 //Add the process of creating a key vault and remove the unused variables
