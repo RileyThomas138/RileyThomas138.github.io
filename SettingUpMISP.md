@@ -138,6 +138,6 @@ And I could see that Sentinel was now pulling in ThreatIndicator logs which conf
 <img width="2457" height="1139" alt="Screenshot 2026-08-05 005810" src="https://github.com/user-attachments/assets/90628d2e-2e25-4579-89f4-3fe9ce6e1d8b" />
 
 
-## <a href="">View the page on Github </a><br/> 
+## <a href="https://github.com/RileyThomas138/RileyThomas138.github.io/blob/main/SettingUpMISP.md">View the page on Github </a><br/> 
 
 ## <a href="https://rileythomas138.github.io/">Home</a><br/>
