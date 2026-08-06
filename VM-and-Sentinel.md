@@ -50,4 +50,4 @@ Now by going to the Incidents page in Microsoft Defender you can see all the tim
 <br/> 
 ## <a href="https://github.com/RileyThomas138/RileyThomas138.github.io/blob/main/VM-and-Sentinel.md">View the page on Github </a><br/> 
 <br/> 
-## <a href="https://rileythomas138.github.io/">Home</a><br/>
+## <a href="https://rileythomas138.github.io/"> Home</a><br/>
