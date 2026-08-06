@@ -6,7 +6,7 @@ layout: default
 
 # Building a Microsoft Sentinel Workspace and Creating a VM - Introduction
 
-In this project I set up MISP Threat Intelligence
+This project builds off of my previous project. Here I am going to be creating an Ubuntu server, running MISP on the server, setting up MISP threat indicators, and pulling them into my previously created Log Analytics workspace in Sentinel.
 
 ## Details
 First I am going to set up a new Ubuntu Server VM for MISP
