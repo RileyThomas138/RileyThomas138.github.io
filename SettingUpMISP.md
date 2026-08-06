@@ -32,7 +32,6 @@ I copied template.env from the MISP-Docker dir to .env. I then added the public 
 
 I ran docker compose pull to build the image and then docker compose up. 
 <img width="1244" height="621" alt="Screenshot 2026-08-02 223637" src="https://github.com/user-attachments/assets/8344129b-d2b7-4753-8929-95301369a770" />
-
 <img width="1142" height="897" alt="Screenshot 2026-08-02 224714" src="https://github.com/user-attachments/assets/db2350d5-4e4d-4fd6-8577-4be40f022dbe" />
 <br/> 
 
@@ -47,9 +46,9 @@ I was then able to log into MISP threat sharing by visiting the public IP addres
 I immediately changed the password as this is a public facing machine and the default password is admin
 <img width="2544" height="760" alt="Screenshot 2026-08-02 225158" src="https://github.com/user-attachments/assets/88ad2b8c-6ec6-4088-be4f-442d63d56f17" />
 <br/> 
+
 I then went back to the MISP site to find and download their default feed JSON
 <img width="1245" height="963" alt="Screenshot 2026-08-02 225412" src="https://github.com/user-attachments/assets/b229fd2d-bc9d-4683-a7c9-7f8675e27eac" />
-
 <img width="1243" height="1004" alt="Screenshot 2026-08-02 225422" src="https://github.com/user-attachments/assets/efd7bf26-5ef9-415b-8304-6d88135de634" />
 <br/> 
 
@@ -77,6 +76,7 @@ Then I went to my log analytics workspace and added RileyMISPSentinel as a Micro
 Then I created an auth key in MISP
 <img width="1051" height="359" alt="Screenshot 2026-08-02 235627" src="https://github.com/user-attachments/assets/f49ac7eb-290e-4a66-b88d-a518c2e28460" />
 <br/> 
+
 Then I created a function app in azure to avoid having to create one on the RileyMISP VM
 <img width="968" height="1093" alt="Screenshot 2026-08-03 000426" src="https://github.com/user-attachments/assets/07a627b3-bc3c-4810-ab64-af76de52db45" />
 <br/> 
@@ -93,15 +93,19 @@ I right clicked on the AzureFunction folder and clicked deploy to fuinction app
 I waited for the this process to finish and went back to Azure to confirm that this was successful
 <img width="2244" height="1159" alt="Screenshot 2026-08-03 223658" src="https://github.com/user-attachments/assets/14c5df5c-4a41-4889-8e38-bfe67d409110" />
 <br/> 
+
 Before continuing on I created a Key Vault to store tenant information and the MISP auth key
 <img width="1294" height="583" alt="Screenshot 2026-08-05 222616" src="https://github.com/user-attachments/assets/59b0d99a-46a3-49bd-bb47-c36538fa3151" />
 <br/> 
+
 I needed to make myself a key vault admin and I needed to make the function app a Key Vault Secrets User to allow it to grab the tenants and mispkey variables needed
 <img width="1277" height="739" alt="Screenshot 2026-08-05 222644" src="https://github.com/user-attachments/assets/683121b8-abdc-4b38-9df8-ee802d5f569f" />
 <br/> 
+
 I then created two secrets, tenants and mispkey
 <img width="1296" height="533" alt="Screenshot 2026-08-05 222658" src="https://github.com/user-attachments/assets/83284bb0-40c0-4c35-9754-31afb31033e0" />
 <br/> 
+
 tenants had the following value
 <img width="511" height="155" alt="image" src="https://github.com/user-attachments/assets/f3d42c42-da98-4659-b060-60a615e8ab35" />
 <br/> 
@@ -123,12 +127,13 @@ After Adding all of these variables tested the function app to make sure that it
 
 This confirmed that the function app could run, however when running it would pull in the first page of 100 indicators and freeze. This led me to believe that my RileyMISPVM was struggling to ingest this many indicators at a time so I searched the Python code for the function that was setting the MISP events on a page to 100 and I lowered it to 25 with the hope that this would solve my issue.
 <img width="1520" height="73" alt="Screenshot 2026-08-05 222318" src="https://github.com/user-attachments/assets/f9b30c83-bfc5-4c10-856e-001618187025" />
-<br/> 
 <img width="1719" height="521" alt="Screenshot 2026-08-05 011122" src="https://github.com/user-attachments/assets/d9f849db-0fa8-4608-9254-23e988183f13" />
 <br/> 
+
 This was the result I got when running the function app again
 <img width="2486" height="1176" alt="Screenshot 2026-08-05 010028" src="https://github.com/user-attachments/assets/b719ad2e-dac9-4892-b0bd-eff5d7ae8a19" />
 <br/> 
+
 And I could see that Sentinel was now pulling in ThreatIndicator logs which confirmed this was succesful
 <img width="2457" height="1139" alt="Screenshot 2026-08-05 005810" src="https://github.com/user-attachments/assets/90628d2e-2e25-4579-89f4-3fe9ce6e1d8b" />
 
