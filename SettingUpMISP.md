@@ -12,7 +12,7 @@ This project builds off of my previous project. Here I am going to be creating a
 First I am going to set up a new Ubuntu Server VM for MISP
 I create a new Resource Group named "RileyMISP_Group"
 I name the machine RileyMISP
-> <img width="1011" height="662" alt="Screenshot 2026-08-02 024625" src="https://github.com/user-attachments/assets/8cf79969-3f70-4e30-82db-5dd32c1fddd7" />
+<img width="1011" height="662" alt="Screenshot 2026-08-02 024625" src="https://github.com/user-attachments/assets/8cf79969-3f70-4e30-82db-5dd32c1fddd7" />
 <br/> 
 
 after creating the VM I am going to install Docker enigne
