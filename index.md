@@ -7,7 +7,7 @@ layout: default
 Hello, my name is Riley. I am an IT professional with a passion for cybersecurity. This page will serve as a hub to showcase my cybersecurity projects.
 
 ## Projects
-<a href="https://rileythomas138.github.io/VM-and-Sentinel.html">Building a Microsoft Sentinel Workspace and Creating a VM</a><br/>
+<a href="https://rileythomas138.github.io/VM-and-Sentinel.html">Microsoft Sentinel Security Monitoring Lab</a><br/>
 > In this project I set up an Azure portal, set up and configure a Windows 11 VM through Azure, set up a Sentinel workspace, and create an alert for sign successful sign ins to the VM. 
 
 <a href="https://rileythomas138.github.io/SettingUpMISP.html">MISP Threat Intelligence Integration with Microsoft Sentinel</a><br/>
