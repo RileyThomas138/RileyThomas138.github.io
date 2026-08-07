@@ -1,8 +1,4 @@
 
-layout: default
----
-
-
 
 # Building a Microsoft Sentinel Workspace and Creating a VM - Introduction
 
