@@ -101,7 +101,8 @@ I then created two secrets, tenants and mispkey
 <img width="1296" height="533" alt="Screenshot 2026-08-05 222658" src="https://github.com/user-attachments/assets/83284bb0-40c0-4c35-9754-31afb31033e0" />
 <br/> 
 
-tenants had the following value
+tenants had the following value <br/> 
+
 <img width="511" height="155" alt="image" src="https://github.com/user-attachments/assets/f3d42c42-da98-4659-b060-60a615e8ab35" />
 <br/> 
 
