@@ -50,7 +50,6 @@ I then went back to the MISP site to find and download their default feed JSON
 
 After this I went back to the MISP threat sharing and added this default feed to Feeds under Sync Actions by using the Import Feeds from JSON option. Once all the Feeds were added I had to select all of them and enable them. 
 <img width="1225" height="793" alt="Screenshot 2026-08-02 230113" src="https://github.com/user-attachments/assets/c02861dc-3f38-47c2-8443-c57efaa65150" />
-<img width="1051" height="359" alt="Screenshot 2026-08-02 235627" src="https://github.com/user-attachments/assets/ae0827b5-eaa9-4b5e-86ca-7706be14e02d" />
 <br/> 
 
 After enabling all the feeds I clicked on "Fetch and store all feed data" and now the home page reflects all of these feeds
